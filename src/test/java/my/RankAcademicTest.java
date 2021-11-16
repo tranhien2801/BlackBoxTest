@@ -18,6 +18,13 @@ public class RankAcademicTest
     @Test
     public void shouldAnswerWithTrue()
     {
+
+        // Kiểm thử theo dòng dữ liệu
+        assertEquals("Input không hợp lệ", RankAcademic.academic(-1, 80));
+        assertEquals("Yếu", RankAcademic.academic(1.5, 50));
+
+
+
         /*
         * Kiểm thử giá trị biên
         */
